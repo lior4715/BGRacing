@@ -8,5 +8,5 @@ results = model.predict(
     source="videos/fsd1.mp4",  # Input video path
     save=True,                          # Save annotated video
     show=True,                          # Shows the video while running this file
-    conf=0.35,                          # Confidence minimum - minimal confidence needed to show label
+    conf=0.25,                          # Confidence minimum - minimal confidence needed to show label
 )
